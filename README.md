@@ -49,20 +49,13 @@ Une fois lancé, le script vous proposera de choisir le profil adapté à votre 
 
 
 
-
-
+![preview](https://imgur.com/1JNmZxV.png)
 <details>
-  <summary>Click here for an image example of launch arguments</summary>
+  <summary>Click here for show les etapes suivantes</summary>
   
 [img]https://i.imgur.com/c4OZ65Z.png[/img]
 
 </details>
-
-
-
-
-![preview](https://imgur.com/1JNmZxV.png)
-)
 
 <p align="center">
   <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
