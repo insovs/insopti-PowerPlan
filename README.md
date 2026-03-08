@@ -1,82 +1,71 @@
-# inso APB Config + Windows Optimizations
-This configuration contains my own settings for **APB Reloaded**, inspired by Flaws' original config.  
-It aims to optimize in-game performance and responsiveness. A script to optimize the APB executable for Windows is also provided if you wish to use it.
+# `insopti PowerPlan`
 
+Ce script importe et active mon plan d'alimentation personnalisé **insopti PowerPlan**, conçu pour maximiser la réactivité du système et réduire au minimum la latence.  
+Il télécharge automatiquement le fichier de configuration `.pow` depuis GitHub, l'importe dans Windows et l'active. Tout est **sûr**, **optimisé** et **entièrement réversible**.
 
-## `1` Windows Optimization for APB Executable (Performance & Latency Optimization)
-This script applies system tweaks for **APB Reloaded** to improve performance, reduce input delay, and lower network latency.  
-A simple graphical interface lets you choose which optimizations to apply. Everything is **safe**, **effective**, and **fully reversible**.
+# `1` Installation & Lancement
 
-## Applying Optimizations
-**Right-click** the `.ps1` file → **"Run with PowerShell"**.  
-The script will automatically request administrator privileges. If you don't have permission to run PowerShell scripts, enable it first via:
-```
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-Once done, a graphical interface will open with checkboxes. Here is what each option does:
+Faites un **clic droit** sur le fichier `.ps1` → **"Exécuter avec PowerShell"**.  
+Le script demandera automatiquement les droits administrateur.
 
-<details>
-  <summary>Click here for an image example of the script (GUI interface)</summary>
-  
-![targetfield](https://i.imgur.com/tjbG35y.png)
+> [!CAUTION]
+> Si vous n'avez pas l'autorisation d'exécuter des scripts PowerShell, activez-la d'abord via :
+> ```
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
 
-</details>
+Une fois lancé, le script vous proposera de choisir le profil adapté à votre configuration CPU.
 
-| Option | What it does |
+# Choix du plan
+
+| Option | Description |
 |---|---|
-| **All-in-One** | Applies everything at once *(recommended)* |
-| **CPU Priority** | Gives more resources to APB so it runs better |
-| **Network Optimization** | Reduces ping and stabilizes the in-game connection |
-| **GPU High Performance** | Sets your GPU to high performance mode for APB |
-| **RunAsAdmin** | Launches APB as administrator to avoid certain issues |
-| **Firewall** | Allows APB through the firewall to prevent network drops |
-| **Defender Exclusion** | Prevents Windows Antivirus from slowing down the game in the background |
-| **Remove all** | Removes everything and restores Windows to its previous state |
+| **`1` Static OC mode** | Pour les utilisateurs avec une fréquence CPU fixe manuellement et Precision Boost désactivé |
+| **`2` Dynamic boost mode** | Pour tous les autres utilisateurs avec Precision Boost / Turbo activé (par défaut dans le BIOS) |
 
 > [!IMPORTANT]
-> If the game refuses to launch after applying the **RunAsAdmin** optimization, check **"Remove all optimizations"** and click Apply to revert everything.
+> Si vous ne savez pas lequel choisir, optez pour le **mode Dynamic boost** (`2`). C'est le réglage par défaut pour la majorité des configurations.
+
+# `2` Ce que fait le script
+
+| Optimisation | Ce que ça fait |
+|---|---|
+| **Import du PowerPlan** | Télécharge et importe le plan d'alimentation `insopti` dans Windows |
+| **Activation automatique** | Active le plan immédiatement après l'import |
+| **CPU no-throttle** | Désactive le bridage de fréquence CPU et les fonctions de mitigation de latence |
+| **CPU Unparking** | Débloque tous les cœurs CPU (comme ParkControl) — aucun cœur n'est mis en veille par Windows |
+| **USB Power Management** | Optimise la gestion d'alimentation USB pour réduire l'input delay |
+| **Sleep state settings** | Configure les états de veille pour une réactivité maximale |
+| **Attributs cachés** | Expose les paramètres avancés du plan dans le panneau de configuration Windows |
+
+# `3` Désinstallation / Réinitialisation
+
+Pour revenir au plan d'alimentation Windows par défaut :
+
+1. Ouvrez le **Panneau de configuration** → **Options d'alimentation**
+2. Sélectionnez un plan Windows natif (Équilibré, Haute performance, etc.)
+3. Supprimez le plan `insopti` de la liste si vous souhaitez le retirer complètement
+
+Vous pouvez aussi supprimer le plan via PowerShell :
+```powershell
+powercfg -delete <GUID_du_plan>
+```
+Le GUID du plan est affiché dans le terminal lors de l'activation.
 
 > [!NOTE]
-> To reset everything, simply check **"Remove all optimizations"** and click **Apply**.
+> Le script ne modifie pas de fichiers système permanents. Changer de plan d'alimentation suffit à tout annuler.
+
+# Infos supp
+
+> [!IMPORTANT]
+> Ce plan est conçu pour un usage **desktop branché sur secteur**. Son utilisation sur laptop en batterie n'est pas recommandée car il maximise la consommation énergétique en permanence.
+
+> [!NOTE]
+> Après une mise à jour majeure de Windows, il est recommandé de **relancer le script** pour vous assurer que le plan est toujours actif et correctement configuré.
 
 ---
 
-
-
-## `2` Config / Installation
-Drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
-
-For example, if you wish to install my graphics open the `Graphics` folder and drag and drop the `APBGame` folder into your own APB Reloaded main directory where your own `APBGame` folder is located but ***NOT inside `APBGame` itself!*** If Windows prompts you to replace files then you're doing it right. If not, check whether you are placing the files in the correct directory.
-
-The only config that requires one additional step is localization because you need to add the `-language=1031` launch argument to your shortcut in case you haven't already done that.
-
-## Launch Arguments
-+ `-language=1031` - Sets the game to load with custom localization (required for localization).
-+ `-nomovies` / `-nomoviesstartup` - Removes loading screens.
-+ `-nosplash` - Removes the initial splash screen on boot (the GFAC logo cannot be removed).
-+ `-nosteam` - Disables Steam integration, including Steam auto-login.
-
-<details>
-  <summary>Click here for an image example of launch arguments</summary>
-  
-![targetfield](https://i.imgur.com/o0vQdAr.png)
-
-</details>
-
-Example correct Target field path: <br>
-`"C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
-
-> [!CAUTION]
-> Make sure to add a space after the closing quotation mark and before each dash, as well as between each launch argument, as shown in the examples above.
-
-## Additional Info
-
-> [!IMPORTANT]
-> Whenever a game update is released, open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut. Do **NOT** create a new APB shortcut every time there is an update — it is unnecessary. Creating a shortcut to `APB.exe` is a one-time step, you do **not** need to redo it for updates or patches.
-
-> [!NOTE]
-> To revert everything back to vanilla and start fresh, open the default APB launcher, click **Options → Repair** and let it finish. Once done, you may close the launcher and start over with modding your game.
-
 <p align="center">
-  <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a></sub>
+  <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
 </p>
+
