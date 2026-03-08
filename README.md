@@ -44,6 +44,25 @@ Une fois lancé, le script vous proposera de choisir le profil adapté à votre 
 > [!IMPORTANT]
 > Ce plan est conçu pour un usage **desktop branché sur secteur**. Son utilisation sur laptop en batterie n'est pas forcement recommandée car il maximise la consommation énergétique en permanence.
 
+
+
+
+
+
+
+
+<details>
+  <summary>Click here for an image example of launch arguments</summary>
+  
+[img]https://i.imgur.com/c4OZ65Z.png[/img]
+
+</details>
+
+
+
+
+
+
 <p align="center">
   <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
 </p>
