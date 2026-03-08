@@ -1,56 +1,55 @@
 # insopti PowerPlan Windows
-Ce script importe et active mon plan d'alimentation personnalisé **insopti PowerPlan**, conçu pour maximiser la réactivité du système et réduire au minimum la latence.  
-Il télécharge automatiquement le fichier de configuration `.pow` depuis GitHub, l'importe dans Windows et l'active. Tout est **sûr**, **optimisé** et **entièrement réversible**.
+This script imports and activates my custom **insopti PowerPlan**, designed to maximize system responsiveness and minimize latency.  
+It automatically downloads the `.pow` configuration file from GitHub, imports it into Windows and activates it. Everything is **safe**, **optimized** and **fully reversible**.
 
-# `1` Installation & Lancement
-
-Faites un **clic droit** sur le fichier `.ps1` → **"Exécuter avec PowerShell"**.  
-Le script demandera automatiquement les droits administrateur.
+## `1` Installation & Launch
+**Right-click** the `.ps1` file → **"Run with PowerShell"**.  
+The script will automatically request administrator privileges.
 
 > [!CAUTION]
-> Si vous n'avez pas l'autorisation d'exécuter des scripts PowerShell, activez-la d'abord via :
+> If you are not allowed to run PowerShell scripts, enable it first via:
 > ```
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
 
-Une fois lancé, le script vous proposera de choisir le profil adapté à votre configuration CPU.
+Once launched, the script will prompt you to choose the profile suited to your CPU configuration.
 
-# Choix du plan
+## Plan selection
 
 | Option | Description |
 |---|---|
-| **`1` Static OC mode** | Pour les utilisateurs avec une fréquence CPU fixe manuellement et Precision Boost désactivé |
-| **`2` Dynamic boost mode** | Pour tous les autres utilisateurs avec Precision Boost / Turbo activé (par défaut dans le BIOS) |
+| **`1` Static OC mode** | For users with a manually fixed CPU frequency and Precision Boost disabled |
+| **`2` Dynamic boost mode** | For all other users with Precision Boost / Turbo enabled (default in BIOS) |
 
 > [!IMPORTANT]
-> Si vous ne savez pas lequel choisir, optez pour le **mode Dynamic boost** (`2`). C'est le réglage par défaut pour la majorité des configurations.
+> If you are unsure which to pick, go with **Dynamic boost mode** (`2`). It is the default setting for most configurations.
 
-# `2` Ce que fait le script
+## What the script does
 
-| Optimisation | Ce que ça fait |
+| Optimization | What it does |
 |---|---|
-| **Import du PowerPlan** | Télécharge et importe le plan d'alimentation `insopti` dans Windows |
-| **Activation automatique** | Active le plan immédiatement après l'import |
-| **CPU no-throttle** | Désactive le bridage de fréquence CPU et les fonctions de mitigation de latence |
-| **CPU Unparking** | Débloque tous les cœurs CPU, aucun cœur n'est mis en veille par Windows |
-| **USB Power Management** | Optimise la gestion d'alimentation USB pour réduire l'input delay |
-| **Sleep state settings** | Configure les états de veille pour une réactivité maximale |
+| **PowerPlan Import** | Downloads and imports the `insopti` power plan into Windows |
+| **Auto Activation** | Activates the plan immediately after import |
+| **CPU no-throttle** | Disables CPU frequency throttling and latency mitigation features |
+| **CPU Unparking** | Unlocks all CPU cores, no core is put to sleep by Windows |
+| **USB Power Management** | Optimizes USB power management to reduce input delay |
+| **Sleep state settings** | Configures sleep states for maximum responsiveness |
 
-# `3` Désinstallation / Réinitialisation
+## Uninstall / Reset
 
-Pour revenir au plan d'alimentation Windows par défaut :
+To revert to the default Windows power plan:
 
-1. Ouvrez le **Panneau de configuration** → **Options d'alimentation**
-2. Sélectionnez un plan Windows natif (Équilibré, Haute performance, etc.)
-3. Supprimez le plan `insopti` de la liste si vous souhaitez le retirer complètement
+1. Open **Control Panel** → **Power Options**
+2. Select a native Windows plan (Balanced, High performance, etc.)
+3. Delete the `insopti` plan from the list if you wish to remove it completely
 
 > [!NOTE]
-> Le script ne modifie pas de fichiers système permanents. Changer de plan d'alimentation suffit à tout annuler.
+> The script does not modify any permanent system files. Switching power plans is enough to revert everything.
 
-# Infos supp
+## Additional info
 
 > [!IMPORTANT]
-> Ce plan est conçu pour un usage **desktop branché sur secteur**. Son utilisation sur laptop en batterie n'est pas recommandée car il maximise la consommation énergétique en permanence.
+> This plan is designed for **desktop use plugged into mains power**. Using it on a laptop running on battery is not recommended as it maximizes power consumption at all times.
 
 ---
 
