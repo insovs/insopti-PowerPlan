@@ -53,7 +53,7 @@ Une fois lancé, le script vous proposera de choisir le profil adapté à votre 
 <details>
   <summary>Click here for show les etapes suivantes</summary>
   
-[img]https://i.imgur.com/c4OZ65Z.png[/img]
+![targetfield](https://i.imgur.com/tjbG35y.png)
 
 </details>
 
