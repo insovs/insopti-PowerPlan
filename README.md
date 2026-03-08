@@ -56,4 +56,3 @@ To revert to the default Windows power plan:
 <p align="center">
   <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
 </p>
-
