@@ -1,4 +1,5 @@
-# `insopti PowerPlan`
+<h1 align="left"><code style="color:#4A9EFF">insopti PowerPlan</code></h1>
+
 This script imports and activates my custom power plan **insopti PowerPlan**, designed to maximize system responsiveness and minimize latency. It automatically downloads the `.pow` configuration file from GitHub, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.
 
 # `1` Installation & Launch
@@ -38,6 +39,9 @@ Once launched, the script will prompt you to choose the profile that matches you
 # Additional Info
 > [!IMPORTANT]
 > This plan is designed for **desktop use plugged into a wall outlet**. Using it on a laptop running on battery is not necessarily recommended, as it maximizes power consumption at all times.
+
+# `3` Preview & Results
+The screenshots below show the **insopti PowerPlan as it appears in Windows**, as well as the **target field configuration** to verify the plan has been correctly applied and is active on your system.
 
 ![preview](https://imgur.com/1JNmZxV.png)
 <details>
