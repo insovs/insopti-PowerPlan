@@ -1,7 +1,6 @@
 # `insopti PowerPlan`
 
-Ce script importe et active mon plan d'alimentation personnalisé **insopti PowerPlan**, conçu pour maximiser la réactivité du système et réduire au minimum la latence.  
-Il télécharge automatiquement le fichier de configuration `.pow` depuis GitHub, l'importe dans Windows et l'active. Tout est **sûr**, **optimisé** et **entièrement réversible**.
+Ce script importe et active mon plan d'alimentation personnalisé **insopti PowerPlan**, conçu pour maximiser la réactivité du système et réduire au minimum la latence. Il télécharge automatiquement le fichier de configuration `.pow` depuis GitHub, l'importe dans Windows et l'active. Tout est **sûr**, **optimisé** et **entièrement réversible**.
 
 # `1` Installation & Lancement
 
@@ -33,23 +32,9 @@ Une fois lancé, le script vous proposera de choisir le profil adapté à votre 
 | **Import du PowerPlan** | Télécharge et importe le plan d'alimentation `insopti` dans Windows |
 | **Activation automatique** | Active le plan immédiatement après l'import |
 | **CPU no-throttle** | Désactive le bridage de fréquence CPU et les fonctions de mitigation de latence |
+| **CPU Unparking** | Débloque tous les cœurs CPU (comme ParkControl) — aucun cœur n'est mis en veille par Windows |
 | **USB Power Management** | Optimise la gestion d'alimentation USB pour réduire l'input delay |
 | **Sleep state settings** | Configure les états de veille pour une réactivité maximale |
-| **Attributs cachés** | Expose les paramètres avancés du plan dans le panneau de configuration Windows |
-
-# `3` Désinstallation / Réinitialisation
-
-Pour revenir au plan d'alimentation Windows par défaut :
-
-1. Ouvrez le **Panneau de configuration** → **Options d'alimentation**
-2. Sélectionnez un plan Windows natif (Équilibré, Haute performance, etc.)
-3. Supprimez le plan `insopti` de la liste si vous souhaitez le retirer complètement
-
-Vous pouvez aussi supprimer le plan via PowerShell :
-```powershell
-powercfg -delete <GUID_du_plan>
-```
-Le GUID du plan est affiché dans le terminal lors de l'activation.
 
 > [!NOTE]
 > Le script ne modifie pas de fichiers système permanents. Changer de plan d'alimentation suffit à tout annuler.
@@ -57,12 +42,7 @@ Le GUID du plan est affiché dans le terminal lors de l'activation.
 # Infos supp
 
 > [!IMPORTANT]
-> Ce plan est conçu pour un usage **desktop branché sur secteur**. Son utilisation sur laptop en batterie n'est pas recommandée car il maximise la consommation énergétique en permanence.
-
-> [!NOTE]
-> Après une mise à jour majeure de Windows, il est recommandé de **relancer le script** pour vous assurer que le plan est toujours actif et correctement configuré.
-
----
+> Ce plan est conçu pour un usage **desktop branché sur secteur**. Son utilisation sur laptop en batterie n'est pas forcement recommandée car il maximise la consommation énergétique en permanence.
 
 <p align="center">
   <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
