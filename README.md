@@ -9,7 +9,7 @@ For example, if you wish to install my graphics open the `Graphics` folder and d
 
 The only config that requires one additional step is localization because you need to add the `-language=1031` launch argument to your shortcut in case you haven't already done that.
 
-# Launch Arguments
+## Launch Arguments
 + `-language=1031` - Sets the game to load with custom localization (required for localization).
 + `-nomovies` / `-nomoviesstartup` - Removes loading screens.
 + `-nosplash` - Removes the initial splash screen on boot (the GFAC logo cannot be removed).
@@ -28,7 +28,7 @@ Example correct Target field path: <br>
 > [!CAUTION]
 > Make sure to add a space after the closing quotation mark and before each dash, as well as between each launch argument, as shown in the examples above.
 
-# Additional Info
+## Additional Info
 
 > [!IMPORTANT]
 > Whenever a game update is released, open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut. Do **NOT** create a new APB shortcut every time there is an update — it is unnecessary. Creating a shortcut to `APB.exe` is a one-time step, you do **not** need to redo it for updates or patches.
