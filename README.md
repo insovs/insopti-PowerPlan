@@ -61,7 +61,8 @@ Une fois lancé, le script vous proposera de choisir le profil adapté à votre 
 
 
 
-![preview](https://i.imgur.com/c4OZ65Z.png)
+![preview](https://imgur.com/1JNmZxV.png)
+)
 
 <p align="center">
   <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
