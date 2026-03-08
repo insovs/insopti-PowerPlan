@@ -2,41 +2,8 @@
 This configuration contains my own settings for **APB Reloaded**, inspired by Flaws' original config.  
 It aims to optimize in-game performance and responsiveness. A script to optimize the APB executable for Windows is also provided if you wish to use it.
 
-## `1` Config / Installation
-Drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
 
-For example, if you wish to install my graphics open the `Graphics` folder and drag and drop the `APBGame` folder into your own APB Reloaded main directory where your own `APBGame` folder is located but ***NOT inside `APBGame` itself!*** If Windows prompts you to replace files then you're doing it right. If not, check whether you are placing the files in the correct directory.
-
-The only config that requires one additional step is localization because you need to add the `-language=1031` launch argument to your shortcut in case you haven't already done that.
-
-## Launch Arguments
-+ `-language=1031` - Sets the game to load with custom localization (required for localization).
-+ `-nomovies` / `-nomoviesstartup` - Removes loading screens.
-+ `-nosplash` - Removes the initial splash screen on boot (the GFAC logo cannot be removed).
-+ `-nosteam` - Disables Steam integration, including Steam auto-login.
-
-<details>
-  <summary>Click here for an image example of launch arguments</summary>
-  
-![targetfield](https://i.imgur.com/o0vQdAr.png)
-
-</details>
-
-Example correct Target field path: <br>
-`"C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
-
-> [!CAUTION]
-> Make sure to add a space after the closing quotation mark and before each dash, as well as between each launch argument, as shown in the examples above.
-
-## Additional Info
-
-> [!IMPORTANT]
-> Whenever a game update is released, open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut. Do **NOT** create a new APB shortcut every time there is an update — it is unnecessary. Creating a shortcut to `APB.exe` is a one-time step, you do **not** need to redo it for updates or patches.
-
-> [!NOTE]
-> To revert everything back to vanilla and start fresh, open the default APB launcher, click **Options → Repair** and let it finish. Once done, you may close the launcher and start over with modding your game.
-
-## `2` Windows Optimization for APB Executable (Performance & Latency Optimization)
+## `1` Windows Optimization for APB Executable (Performance & Latency Optimization)
 This script applies system tweaks for **APB Reloaded** to improve performance, reduce input delay, and lower network latency.  
 A simple graphical interface lets you choose which optimizations to apply. Everything is **safe**, **effective**, and **fully reversible**.
 
@@ -73,6 +40,42 @@ Once done, a graphical interface will open with checkboxes. Here is what each op
 > To reset everything, simply check **"Remove all optimizations"** and click **Apply**.
 
 ---
+
+
+
+## `2` Config / Installation
+Drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
+
+For example, if you wish to install my graphics open the `Graphics` folder and drag and drop the `APBGame` folder into your own APB Reloaded main directory where your own `APBGame` folder is located but ***NOT inside `APBGame` itself!*** If Windows prompts you to replace files then you're doing it right. If not, check whether you are placing the files in the correct directory.
+
+The only config that requires one additional step is localization because you need to add the `-language=1031` launch argument to your shortcut in case you haven't already done that.
+
+## Launch Arguments
++ `-language=1031` - Sets the game to load with custom localization (required for localization).
++ `-nomovies` / `-nomoviesstartup` - Removes loading screens.
++ `-nosplash` - Removes the initial splash screen on boot (the GFAC logo cannot be removed).
++ `-nosteam` - Disables Steam integration, including Steam auto-login.
+
+<details>
+  <summary>Click here for an image example of launch arguments</summary>
+  
+![targetfield](https://i.imgur.com/o0vQdAr.png)
+
+</details>
+
+Example correct Target field path: <br>
+`"C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
+
+> [!CAUTION]
+> Make sure to add a space after the closing quotation mark and before each dash, as well as between each launch argument, as shown in the examples above.
+
+## Additional Info
+
+> [!IMPORTANT]
+> Whenever a game update is released, open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut. Do **NOT** create a new APB shortcut every time there is an update — it is unnecessary. Creating a shortcut to `APB.exe` is a one-time step, you do **not** need to redo it for updates or patches.
+
+> [!NOTE]
+> To revert everything back to vanilla and start fresh, open the default APB launcher, click **Options → Repair** and let it finish. Once done, you may close the launcher and start over with modding your game.
 
 <p align="center">
   <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a></sub>
