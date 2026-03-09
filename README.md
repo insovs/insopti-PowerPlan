@@ -24,14 +24,14 @@ The script will automatically request administrator privileges.
 > ```
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
-ou activer cela via [EnablePowerShellScript](https://github.com/insovs/EnablePowerShellScript).
-Once launched, the script will prompt you to choose the profile suited to your CPU configuration.
+or refer to [EnablePowerShellScript](https://github.com/insovs/EnablePowerShellScript).  
+Once launched, the script will prompt you to select the profile suited to your CPU configuration.
 
 ## Plan selection
 
 | Option | Description |
 |---|---|
-| **`1` Static OC mode** | For users with a manually fixed CPU frequency and Precision Boost disabled |
+| **`1` Static OC mode** | For users with a manually fixed CPU frequency (OC) and Precision Boost disabled |
 | **`2` Dynamic boost mode** | For all other users with Precision Boost / Turbo enabled (default in BIOS) |
 
 > [!IMPORTANT]
