@@ -4,7 +4,7 @@ Imports and activates a **PowerPlan**, designed to maximize performance, system 
 It automatically downloads the `.pow`, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.  
 
 > [!NOTE]
-> The script does not modify any permanent system files. Watch a [preview](https://youtu.be/JIATuKskBmk) to see it in action.
+> Watch a [preview](https://youtu.be/JIATuKskBmk) to see it in action.
 
 ![preview](https://imgur.com/1JNmZxV.png)
 <details>
