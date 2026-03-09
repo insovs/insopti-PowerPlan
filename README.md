@@ -10,15 +10,15 @@ This imports and activates a **custom PowerPlan**, designed to maximize system r
 </details>
 
 ## Installation & Launch
-**Right-click** the `.ps1` file → **"Run with PowerShell"**.  
+**Right-click** the `insopti-PowerPlan.ps1` file → **"Run with PowerShell"**.  
 The script will automatically request administrator privileges.
 
 > [!CAUTION]
-> If you are not allowed to run PowerShell scripts, enable it first via ou allez ici #...:
+> If you are not allowed to run PowerShell scripts, enable it first:
 > ```
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
-
+ou activer cela via #...:
 Once launched, the script will prompt you to choose the profile suited to your CPU configuration.
 
 ## Plan selection
