@@ -62,9 +62,9 @@ To revert to the default Windows power plan:
 3. Delete the `insopti` plan from the list if you wish to remove it completely.
 
 > [!NOTE]
-> The script does not modify any permanent system files. Switching power plans is enough to revert everything.
-
 > No benchmarks are provided, as results vary depending on multiple factors like BIOS settings, hardware configuration, and overall system tuning. On my end, most optimizations were already applied at the BIOS level prior to using this plan, so the difference may be minimal if your system is already well configured, or significant if it is not. That said, feel free to run your own benchmarks and share your results — feedback is always welcome !
+
+> The script does not modify any permanent system files. Switching power plans is enough to revert everything.
 
 ---
 
