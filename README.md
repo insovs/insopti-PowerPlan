@@ -1,5 +1,6 @@
 # insopti PowerPlan Windows
-Imports and activates a **PowerPlan**, designed to maximize system responsiveness and minimize latency. It automatically downloads the `.pow`, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.  
+Imports and activates a **PowerPlan**, designed to maximize system responsiveness and minimize latency. 
+It automatically downloads the `.pow`, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.  
 
 ▸ [Preview video](https://youtu.be/JIATuKskBmk)
 
