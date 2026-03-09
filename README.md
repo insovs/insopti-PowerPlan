@@ -14,7 +14,7 @@ This imports and activates a **custom PowerPlan**, designed to maximize system r
 The script will automatically request administrator privileges.
 
 > [!CAUTION]
-> If you are not allowed to run PowerShell scripts, enable it first via:
+> If you are not allowed to run PowerShell scripts, enable it first via ou allez ici #...:
 > ```
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
