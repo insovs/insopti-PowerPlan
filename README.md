@@ -3,7 +3,8 @@ Imports and activates a **PowerPlan**, designed to maximize performance, system 
 
 It automatically downloads the `.pow`, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.  
 
-> ▸ [!Preview video](https://youtu.be/JIATuKskBmk)
+> [!NOTE]
+> [▶ Preview video](https://youtu.be/JIATuKskBmk)
 
 ![preview](https://imgur.com/1JNmZxV.png)
 <details>
