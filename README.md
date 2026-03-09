@@ -16,7 +16,7 @@ It automatically downloads the `.pow`, imports it into Windows, and activates it
 </details>
 
 ## Installation & Launch
-**Right-click** the `insopti-PowerPlan.ps1` file → **"Run with PowerShell"**.  
+Head to the **[Releases]([../../releases](https://github.com/insovs/insopti-PowerPlan/releases/tag/v1))** section and download `insopti-PowerPlan.ps1`, then **right-click** it → **"Run with PowerShell"**.  
 The script will automatically request administrator privileges.
 
 > [!CAUTION]
