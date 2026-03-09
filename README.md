@@ -52,7 +52,8 @@ Once launched, the script will prompt you to select the profile suited to your C
 
 > [!IMPORTANT]
 > This plan is designed for **desktop use plugged into mains power**.
->   Using it on a laptop running on battery is not recommended as it maximizes power consumption at all times.
+
+> Using it on a laptop running on battery is not recommended as it maximizes power consumption at all times.
 
 ## Uninstall / Reset
 
