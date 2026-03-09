@@ -1,6 +1,16 @@
 # insopti PowerPlan Windows
 Thisimports and activates my custom **insopti PowerPlan**, designed to maximize system responsiveness and minimize latency. It automatically downloads the `.pow` configuration file from this **GitHub repository**, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.
 
+
+
+<details>
+  <summary>Click here for an image example of launch arguments</summary>
+  
+![targetfield](https://i.imgur.com/o0vQdAr.png)
+
+</details>
+
+
 ## Installation & Launch
 **Right-click** the `.ps1` file → **"Run with PowerShell"**.  
 The script will automatically request administrator privileges.
@@ -49,6 +59,17 @@ To revert to the default Windows power plan:
 
 > [!IMPORTANT]
 > This plan is designed for **desktop use plugged into mains power**. Using it on a laptop running on battery is not recommended as it maximizes power consumption at all times.
+
+![preview](https://imgur.com/1JNmZxV.png)
+<details>
+  <summary>Click here to show the next steps</summary>
+  
+![targetfield](https://imgur.com/A3UhJOr.png)
+![targetfield](https://imgur.com/cH3hBPZ.png)
+</details>
+<p align="center">
+  <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
+</p>
 
 ---
 
