@@ -2,7 +2,6 @@
 Thisimports and activates my custom **insopti PowerPlan**, designed to maximize system responsiveness and minimize latency. It automatically downloads the `.pow` configuration file from this **GitHub repository**, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.
 
 ![preview](https://imgur.com/1JNmZxV.png)
-
 <details>
   <summary>Click here to show the next steps</summary>
   
