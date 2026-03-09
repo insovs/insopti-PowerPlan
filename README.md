@@ -64,6 +64,9 @@ To revert to the default Windows power plan:
 > [!NOTE]
 > The script does not modify any permanent system files. Switching power plans is enough to revert everything.
 
+> [!NOTE]
+> No benchmarks are provided, as results vary depending on multiple factors — BIOS settings, hardware configuration, and overall system tuning. On my end, most optimizations were already applied at the BIOS level prior to using this plan, so the difference may be minimal if your system is already well configured. That said, feel free to run your own benchmarks and share your results — feedback is always welcome.
+
 ---
 
 <p align="center">
