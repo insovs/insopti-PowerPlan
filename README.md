@@ -48,21 +48,21 @@ Once launched, the script will prompt you to choose the profile suited to your C
 | **USB Power Management** | Optimizes USB power management to reduce input delay |
 | **Sleep state settings** | Configures sleep states for maximum responsiveness |
 
-## Uninstall / Reset
-
-To revert to the default Windows power plan:
-
-1. Open **Control Panel** → **Power Options**
-2. Select a native Windows plan (Balanced, High performance, etc.)
-3. Delete the `insopti` plan from the list if you wish to remove it completely
-
-> [!NOTE]
-> The script does not modify any permanent system files. Switching power plans is enough to revert everything.
-
 ## Additional info
 
 > [!IMPORTANT]
 > This plan is designed for **desktop use plugged into mains power**. Using it on a laptop running on battery is not recommended as it maximizes power consumption at all times.
+
+## Uninstall / Reset
+
+To revert to the default Windows power plan:
+
+1. Open **Control Panel** → **Power Options**.
+2. Select a native Windows plan (Normal, Balanced, High performance, etc.).
+3. Delete the `insopti` plan from the list if you wish to remove it completely.
+
+> [!NOTE]
+> The script does not modify any permanent system files. Switching power plans is enough to revert everything.
 
 ---
 
