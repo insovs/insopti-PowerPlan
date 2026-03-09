@@ -1,8 +1,7 @@
 # insopti PowerPlan Windows
-This script imports and activates my custom **insopti PowerPlan**, designed to maximize system responsiveness and minimize latency.  
-It automatically downloads the `.pow` configuration file from GitHub, imports it into Windows and activates it. Everything is **safe**, **optimized** and **fully reversible**.
+Thisimports and activates my custom **insopti PowerPlan**, designed to maximize system responsiveness and minimize latency. It automatically downloads the `.pow` configuration file from this **GitHub repository**, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.
 
-## `1` Installation & Launch
+## Installation & Launch
 **Right-click** the `.ps1` file → **"Run with PowerShell"**.  
 The script will automatically request administrator privileges.
 
