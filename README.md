@@ -18,7 +18,7 @@ The script will automatically request administrator privileges.
 > ```
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
-ou activer cela via #...:
+ou activer cela via [EnablePowerShellScript](https://github.com/insovs/EnablePowerShellScript):
 Once launched, the script will prompt you to choose the profile suited to your CPU configuration.
 
 ## Plan selection
