@@ -3,9 +3,6 @@ Imports and activates a **PowerPlan**, designed to maximize performance, system 
 
 It automatically downloads the `.pow`, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.  
 
-## Support
-If you need any help or have questions, feel free to join the **[Discord support server](https://discord.com/invite/fayeECjdtb)** — I'll be happy to assist you.
-
 > [!NOTE]
 > Not sure what it does? Check the **[video preview](https://youtu.be/JIATuKskBmk)** to see it in action. the whole process takes under 10 seconds.
 
@@ -16,6 +13,9 @@ If you need any help or have questions, feel free to join the **[Discord support
 ![targetfield](https://imgur.com/A3UhJOr.png)
 ![targetfield](https://imgur.com/cH3hBPZ.png)
 </details>
+
+## Support
+If you need any help or have questions, feel free to join the **[Discord support server](https://discord.com/invite/fayeECjdtb)** — I'll be happy to assist you.
 
 ## Installation & Launch
 Head to the **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)** section and download `insopti-PowerPlan.ps1`, then **right-click** it → **"Run with PowerShell"**.  
