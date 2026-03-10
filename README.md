@@ -3,9 +3,11 @@ Imports and activates a **PowerPlan**, designed to maximize performance, system 
 
 It automatically downloads the `.pow`, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.  
 
-
 > [!NOTE]
 > Not sure what it does? Check the **[video preview](https://youtu.be/JIATuKskBmk)** to see it in action. the whole process takes under 10 seconds.
+
+## Support
+If you need any help or have questions, feel free to join the **[Discord support server](https://discord.com/invite/fayeECjdtb)** — I'll be happy to assist you.
 
 ![preview](https://imgur.com/1JNmZxV.png)
 <details>
