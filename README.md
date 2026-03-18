@@ -1,8 +1,8 @@
 <div align="center">
 
-# Competitive Custom Optimized PowerPlan
+# Conpetitive Custom Optimized PowerPlan
 
-Imports and activates a custom **PowerPlan** designed to maximize performance, system responsiveness and minimize latency.<br>
+Imports and activates a custom **PowerPlan** to maximize performance, system responsiveness and minimize latency.<br>
 Automatically downloads the `.pow`, imports it into Windows, and activates it.<br>
 Everything is **safe**, **optimized**, and **fully reversible**.
 
