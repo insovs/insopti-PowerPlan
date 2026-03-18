@@ -1,6 +1,6 @@
 <div align="center">
 
-# insopti PowerPlan
+# Optimized PowerPlan
 
 Imports and activates a custom **PowerPlan** designed to maximize performance, system responsiveness and minimize latency.<br>
 Automatically downloads the `.pow`, imports it into Windows, and activates it.<br>
