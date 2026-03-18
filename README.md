@@ -1,33 +1,44 @@
-# insopti PowerPlan Windows
-Imports and activates a **PowerPlan**, designed to maximize performance, system responsiveness and minimize latency.
+<div align="center">
 
-It automatically downloads the `.pow`, imports it into Windows, and activates it. Everything is **safe**, **optimized**, and **fully reversible**.  
+# insopti PowerPlan
 
-> [!NOTE]
-> Not sure what it does? Check the **[video preview](https://youtu.be/JIATuKskBmk)** to see it in action. the whole process takes under 10 seconds.
+Imports and activates a custom **PowerPlan** designed to maximize performance, system responsiveness and minimize latency.<br>
+Automatically downloads the `.pow`, imports it into Windows, and activates it.<br>
+Everything is **safe**, **optimized**, and **fully reversible**.
+
+[![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
+[![Preview](https://img.shields.io/badge/Video-Preview-FF0000?logo=youtube&logoColor=white)](https://youtu.be/JIATuKskBmk)
+
+</div>
+
+---
 
 ![preview](https://imgur.com/1JNmZxV.png)
+
 <details>
-  <summary>Click here to show the next steps</summary>
-  
-![targetfield](https://imgur.com/A3UhJOr.png)
-![targetfield](https://imgur.com/cH3hBPZ.png)
+<summary><b>► Screenshots</b></summary>
+
+![step1](https://imgur.com/A3UhJOr.png)
+![step2](https://imgur.com/cH3hBPZ.png)
+
 </details>
 
-## Support
-If you need any help or have questions, feel free to join the **[Discord support server](https://discord.com/invite/fayeECjdtb)** — I'll be happy to assist you.
+---
 
-## Installation & Launch
-Head to the **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)** section and download `insopti-PowerPlan.ps1`, then **right-click** it → **"Run with PowerShell"**.  
-The script will automatically request administrator privileges.
+## Installation
+
+Head to the **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)** section and download `insopti-PowerPlan.ps1`, then **right-click** it → **Run with PowerShell**
+
+The script will automatically request administrator privileges, then prompt you to select the profile suited to your CPU configuration.
 
 > [!CAUTION]
-> If you are not allowed to run PowerShell scripts, enable it first:
-> ```
+> If PowerShell scripts are blocked on your system, enable execution first:
+> ```powershell
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
-or refer to [EnablePowerShellScript](https://github.com/insovs/EnablePowerShellScript).  
-Once launched, the script will prompt you to select the profile suited to your CPU configuration.
+> Or use **[EnablePowerShellScript](https://github.com/insovs/EnablePowerShellScript)** for a one-click solution.
+
+---
 
 ## Plan selection
 
@@ -39,9 +50,11 @@ Once launched, the script will prompt you to select the profile suited to your C
 > [!IMPORTANT]
 > If you are unsure which to pick, go with **Dynamic boost mode** (`2`). It is the default setting for most configurations.
 
+---
+
 ## What the script does
 
-| Optimization | What it does |
+| Optimization | Description |
 |---|---|
 | **PowerPlan Import** | Downloads and imports the `insopti` power plan into Windows |
 | **Auto Activation** | Activates the plan immediately after import |
@@ -50,26 +63,26 @@ Once launched, the script will prompt you to select the profile suited to your C
 | **USB Power Management** | Optimizes USB power management to reduce input delay |
 | **Sleep state settings** | Configures sleep states for maximum responsiveness |
 
-## Additional info
-
-> [!IMPORTANT]
-> This plan is designed for **desktop use plugged into mains power**. Using it on a laptop running on battery is not recommended as it maximizes power consumption at all times.
+---
 
 ## Uninstall / Reset
 
 To revert to the default Windows power plan:
 
-1. Open **Control Panel** → **Power Options**.
-2. Select a native Windows plan (Normal, Balanced, High performance, etc.).
-3. Delete the `insopti` plan from the list if you wish to remove it completely.
+1. Open **Control Panel** → **Power Options**
+2. Select a native Windows plan (Balanced, High performance, etc.)
+3. Delete the `insopti` plan from the list if you wish to remove it completely
 
 > [!NOTE]
-> No benchmarks are provided, as results vary depending on multiple factors like BIOS settings, hardware configuration, and overall system tuning. On my end, most optimizations were already applied at the BIOS level prior to using this plan, so the difference may be minimal if your system is already well configured, or significant if it is not. That said, feel free to run your own benchmarks and share your results — feedback is always welcome !
-
-> The script does not modify any permanent system files. Switching power plans is enough to revert everything.
+> The script does not modify any permanent system files. Switching power plans is enough to revert everything. No benchmarks are provided as results vary depending on BIOS settings, hardware configuration, and overall system tuning — feel free to run your own and share your results.
 
 ---
 
-<p align="center">
-  <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
-</p>
+> [!IMPORTANT]
+> This plan is designed for **desktop use plugged into mains power**. Using it on a laptop running on battery is not recommended as it maximizes power consumption at all times.
+
+---
+
+<div align="center">
+  <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> · For personal use only.</sub>
+</div>
