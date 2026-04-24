@@ -7,7 +7,7 @@
 
 </div>
 
-# Overview
+# 🚀 Overview
 
 Imports and activates a custom **PowerPlan** to maximize performance, system responsiveness and minimize latency.<br>
 Automatically downloads the `.pow`, imports it into Windows, and activates it.<br>
@@ -22,7 +22,7 @@ Everything is **safe**, **optimized**, and **fully reversible**.
 
 ---
 
-## Installation
+## 📥 Usage / Instalation
 
 Head to the **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)** section and download `insopti-PowerPlan.ps1`, then **right-click** it → **Run with PowerShell**
 
