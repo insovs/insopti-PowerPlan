@@ -26,8 +26,6 @@ Everything is **safe**, **optimized**, and **fully reversible**.
 
 Head to the **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)** section and download `insopti-PowerPlan.ps1`, then **right-click** it → **Run with PowerShell**
 
-The script will automatically request administrator privileges, then prompt you to select the profile suited to your CPU configuration.
-
 > [!CAUTION]
 > If PowerShell scripts are blocked on your system, enable execution first:
 > ```powershell
