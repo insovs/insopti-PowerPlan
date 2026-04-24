@@ -1,7 +1,10 @@
 <div align="center">
-
+  
 [![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
 [![Preview](https://img.shields.io/badge/Video-Preview-FF0000?logo=youtube&logoColor=white)](https://youtu.be/JIATuKskBmk)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?logo=powershell&logoColor=white)]()
+[![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D4?logo=windows&logoColor=white)]()
+[![License](https://img.shields.io/badge/Use-Personal_only-22C55E)]()
 
 <img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/7cb13fec-27de-4d26-922e-d7a90b5e8d07" />
 
@@ -14,17 +17,18 @@ Automatically downloads the `.pow`, imports it into Windows, and activates it.<b
 Everything is **safe**, **optimized**, and **fully reversible**.
 
 <details>
-<summary><b>👁️ Show Preview Tool</b></summary>
-<img width="761" height="370" alt="68747470733a2f2f696d6775722e636f6d2f314a4e6d5a78562e706e67" src="https://github.com/user-attachments/assets/3fe3762d-984e-4bac-9a40-30554d1c729a" />
-<img width="766" height="383" alt="68747470733a2f2f696d6775722e636f6d2f413355684a4f722e706e67" src="https://github.com/user-attachments/assets/e122a170-b467-42e4-88bc-8f348634658b" />
-<img width="758" height="713" alt="68747470733a2f2f696d6775722e636f6d2f6348336842505a2e706e67" src="https://github.com/user-attachments/assets/08a1fc34-9a8c-4276-a314-96982ca42550" />
+<summary><b>👁️ Show Preview</b></summary>
+<br>
+<img width="761" height="370" src="https://github.com/user-attachments/assets/3fe3762d-984e-4bac-9a40-30554d1c729a" />
+<img width="766" height="383" src="https://github.com/user-attachments/assets/e122a170-b467-42e4-88bc-8f348634658b" />
+<img width="758" height="713" src="https://github.com/user-attachments/assets/08a1fc34-9a8c-4276-a314-96982ca42550" />
 </details>
 
 ---
 
 ## 📥 Usage / Instalation
 
-Head to the **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)** section and download `insopti-PowerPlan.ps1`, then **right-click** it → **Run with PowerShell**
+Go to **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)** → download `insopti-PowerPlan.ps1` → **right-click** → **Run with PowerShell**
 
 > [!CAUTION]
 > If PowerShell scripts are blocked on your system, enable execution first:
@@ -37,7 +41,7 @@ Head to the **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)**
 
 ## Plan selection
 
-| Option | Description |
+| Option | Description / Best for |
 |---|---|
 | **`1` Static OC mode** | For users with a manually fixed CPU frequency (OC) and Precision Boost disabled |
 | **`2` Dynamic boost mode** | For all other users with Precision Boost / Turbo enabled (default in BIOS) |
@@ -49,7 +53,7 @@ Head to the **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)**
 
 ## What the script does
 
-| Optimization | Description |
+| Optimization | Description / Best For |
 |---|---|
 | **PowerPlan Import** | Downloads and imports the `insopti` power plan into Windows |
 | **Auto Activation** | Activates the plan immediately after import |
