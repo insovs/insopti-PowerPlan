@@ -1,5 +1,7 @@
 <div align="center">
 
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/7cb13fec-27de-4d26-922e-d7a90b5e8d07" />
+
 # Optimized Custom PowerPlan
 
 Imports and activates a custom **PowerPlan** to maximize performance, system responsiveness and minimize latency.<br>
