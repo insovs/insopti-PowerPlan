@@ -1,9 +1,9 @@
 <div align="center">
 
-<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/7cb13fec-27de-4d26-922e-d7a90b5e8d07" />
-
 [![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
 [![Preview](https://img.shields.io/badge/Video-Preview-FF0000?logo=youtube&logoColor=white)](https://youtu.be/JIATuKskBmk)
+
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/7cb13fec-27de-4d26-922e-d7a90b5e8d07" />
 
 </div>
 
@@ -13,16 +13,11 @@ Imports and activates a custom **PowerPlan** to maximize performance, system res
 Automatically downloads the `.pow`, imports it into Windows, and activates it.<br>
 Everything is **safe**, **optimized**, and **fully reversible**.
 
----
-
-<p align="center"><img src="https://imgur.com/1JNmZxV.png" /></p>
-
 <details>
-<summary><b>► Screenshots</b></summary>
-
-![step1](https://imgur.com/A3UhJOr.png)
-![step2](https://imgur.com/cH3hBPZ.png)
-
+<summary><b>👁️ Show Preview Tool</b></summary>
+<img width="761" height="370" alt="68747470733a2f2f696d6775722e636f6d2f314a4e6d5a78562e706e67" src="https://github.com/user-attachments/assets/3fe3762d-984e-4bac-9a40-30554d1c729a" />
+<img width="766" height="383" alt="68747470733a2f2f696d6775722e636f6d2f413355684a4f722e706e67" src="https://github.com/user-attachments/assets/e122a170-b467-42e4-88bc-8f348634658b" />
+<img width="758" height="713" alt="68747470733a2f2f696d6775722e636f6d2f6348336842505a2e706e67" src="https://github.com/user-attachments/assets/08a1fc34-9a8c-4276-a314-96982ca42550" />
 </details>
 
 ---
