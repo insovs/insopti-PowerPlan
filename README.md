@@ -2,16 +2,16 @@
 
 <img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/7cb13fec-27de-4d26-922e-d7a90b5e8d07" />
 
-# Optimized Custom PowerPlan
-
-Imports and activates a custom **PowerPlan** to maximize performance, system responsiveness and minimize latency.<br>
-Automatically downloads the `.pow`, imports it into Windows, and activates it.<br>
-Everything is **safe**, **optimized**, and **fully reversible**.
-
 [![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
 [![Preview](https://img.shields.io/badge/Video-Preview-FF0000?logo=youtube&logoColor=white)](https://youtu.be/JIATuKskBmk)
 
 </div>
+
+# Overview
+
+Imports and activates a custom **PowerPlan** to maximize performance, system responsiveness and minimize latency.<br>
+Automatically downloads the `.pow`, imports it into Windows, and activates it.<br>
+Everything is **safe**, **optimized**, and **fully reversible**.
 
 ---
 
