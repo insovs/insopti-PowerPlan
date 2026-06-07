@@ -19,7 +19,7 @@ Everything is **safe**, **optimized**, and **fully reversible**.
 <details>
 <summary><b>👁️ Show Preview</b></summary>
 <br>
-<img width="400" height="232" alt="0607 (1)" src="https://github.com/user-attachments/assets/25a5e4ca-9240-4b1d-8ef1-10e201ec0047" />
+<img alt="0607 (1)" src="https://github.com/user-attachments/assets/25a5e4ca-9240-4b1d-8ef1-10e201ec0047" />
 <img width="761" height="370" src="https://github.com/user-attachments/assets/3fe3762d-984e-4bac-9a40-30554d1c729a" />
 <img width="766" height="383" src="https://github.com/user-attachments/assets/e122a170-b467-42e4-88bc-8f348634658b" />
 <img width="758" height="713" src="https://github.com/user-attachments/assets/08a1fc34-9a8c-4276-a314-96982ca42550" />
