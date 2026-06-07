@@ -18,19 +18,6 @@ Everything is **safe**, **optimized**, and **fully reversible**.
 
 <details>
 <summary><b>👁️ Show Preview</b></summary>
-
-![preview](https://github.com/user-attachments/assets/25a5e4ca-9240-4b1d-8ef1-10e201ec0047)
-
-<img alt="preview 1" src="https://github.com/user-attachments/assets/3fe3762d-984e-4bac-9a40-30554d1c729a" />
-
-<img alt="preview 2" src="https://github.com/user-attachments/assets/e122a170-b467-42e4-88bc-8f348634658b" />
-
-<img alt="preview 3" src="https://github.com/user-attachments/assets/08a1fc34-9a8c-4276-a314-96982ca42550" />
-
-</details>
-
-<details>
-<summary><b>👁️ Show Preview</b></summary>
 <br>
 
 <img alt="preview gif" src="https://github.com/user-attachments/assets/25a5e4ca-9240-4b1d-8ef1-10e201ec0047" />
