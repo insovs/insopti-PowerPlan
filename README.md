@@ -38,8 +38,6 @@ Everything is **safe**, **optimized**, and **fully reversible**.
 iwr "https://raw.githubusercontent.com/insovs/insopti-PowerPlan/main/insopti-PowerPlan.ps1" -OutFile "insopti-PowerPlan.ps1"; .\insopti-PowerPlan.ps1
 ```
 
-Or go to **[Releases](https://github.com/insovs/insopti-PowerPlan/releases)** → download `insopti-PowerPlan.ps1` → **right-click** → **Run with PowerShell**
-
 > [!CAUTION]
 > If PowerShell scripts are blocked on your system, enable execution first:
 > ```powershell
